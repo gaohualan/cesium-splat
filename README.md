@@ -4,15 +4,26 @@ CesiumJS-based implemetation of a renderer for [3D Gaussian Splatting for Real-T
 
 The 3D scenes are stored in a format similar to point clouds and can be viewed, navigated, and interacted with in real-time. This renderer will work with standard `.splat` files.
 
-When I started, web-based viewers were already available -- A WebGL-based viewer from [antimatter15](https://github.com/antimatter15/splat) and a WebGPU viewer from [cvlab-epfl](https://github.com/cvlab-epfl/gaussian-splatting-web) -- However no Three.js version existed. I used those versions as a starting point for my initial implementation, but as of now this project contains all my own code.
+When I started, web-based viewers were already available -- A WebGL-based viewer from [antimatter15](https://github.com/antimatter15/splat) and a WebGPU viewer from [cvlab-epfl](https://github.com/cvlab-epfl/gaussian-splatting-web) -- However no CesiumJS version existed. I used those versions as a starting point for my initial implementation.
 <br>
 <br>
 ## How to use
 
+install dependencies:
+
+```sh
 pnpm install
+```
 
+start your local server:
+
+```sh
 node server.js
+```
 
-Open http://localhost:8081/index.html?url=http://localhost:8081/data/model.splat
+visit the page:
 
-url is the path to your .splat file.
+
+  ```JavaScript
+  http://localhost:8081/index.html?url=http://localhost:8081/data/model.splat
+  ```
