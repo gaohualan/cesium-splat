@@ -4,7 +4,7 @@ CesiumJS-based implemetation of a renderer for [3D Gaussian Splatting for Real-T
 
 The 3D scenes are stored in a format similar to point clouds and can be viewed, navigated, and interacted with in real-time. This renderer will work with standard `.splat` files.
 
-When I started, web-based viewers were already available -- A WebGL-based viewer from [antimatter15](https://github.com/antimatter15/splat) and a WebGPU viewer from [cvlab-epfl](https://github.com/cvlab-epfl/gaussian-splatting-web) -- However no CesiumJS version existed. I used those versions as a starting point for my initial implementation.
+When I started, web-based viewers were already available -- A WebGL-based viewer from [antimatter15](https://github.com/antimatter15/splat) and a WebGPU viewer from [cvlab-epfl](https://github.com/cvlab-epfl/gaussian-splatting-web) --  A CesiumJS-based viewer from [TheBell](https://github.com/TheBell/CesiumSplatViewer) doesn't work properly . I used those versions as a starting point for my initial implementation.
 <br>
 <br>
 ## How to use
@@ -28,7 +28,15 @@ visit the page:
   http://localhost:8081/index.html?url=http://localhost:8081/data/model.splat
   ```
 ## What to do next
+[1]support data update.
 
+[2]Optimize rendering effects.
 
 
 ## Thanks
+[1] https://github.com/antimatter15/splat
+
+[2] https://github.com/CesiumGS/cesium/blob/main/Apps/Sandcastle/gallery/development/Custom%20Primitive.html
+
+[3] https://github.com/TheBell/CesiumSplatViewer
+
