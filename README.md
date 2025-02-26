@@ -28,9 +28,9 @@ visit the page:
   http://localhost:8081/index.html?url=http://localhost:8081/data/model.splat
   ```
 ## What to do next
-[1]support data update.
+[1] support data update.
 
-[2]Optimize rendering effects.
+[2] Optimize rendering effects.
 
 
 ## Thanks
